@@ -2,7 +2,10 @@ package com.freesoft.protobuf;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.http.client.ClientHttpRequestFactory;
+import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.http.converter.protobuf.ProtobufHttpMessageConverter;
+import org.springframework.web.client.RestTemplate;
 
 import java.util.*;
 
@@ -15,18 +18,18 @@ public class Application {
     }
 
     @Bean
+    RestTemplate createRestTemplate(ProtobufHttpMessageConverter protobufHttpMessageConverter) {
+        return new RestTemplate(Arrays.<HttpMessageConverter<?>>asList(protobufHttpMessageConverter));
+    }
+
+    @Bean
     public CourseRepository createTestCourses() {
         Map<Integer, Training.Course> courses = new HashMap<>();
         Training.Course firstCourse = Training.Course.newBuilder().setId(1).setCourseName("Effective Java")
                 .addAllStudent(createTestStudents()).build();
 
         Training.Course secondCourse = Training.Course.newBuilder().setId(2).setCourseName("Clean code")
-                .addAllStudent(new Iterable<Training.Student>() {
-                    @Override
-                    public Iterator<Training.Student> iterator() {
-                        return null;
-                    }
-                }).build();
+                .addAllStudent(createTestStudents()).build();
 
         courses.put(firstCourse.getId(), firstCourse);
         courses.put(secondCourse.getId(), secondCourse);
