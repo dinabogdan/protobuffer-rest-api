@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f83eba2-45f5-49b4-9e6c-05ba71ba2850" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freesoft/protobuf/CourseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApplicationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/freesoft/protobuf/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freesoft/protobuf/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApplicationTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,8 +19,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+            <state relative-caret-position="153">
+              <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -41,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/freesoft/protobuf/Application.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="183">
-              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#360#361#0" expanded="true" />
@@ -55,10 +52,14 @@
       <file leaf-file-name="ApplicationTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ApplicationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="79" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="79" />
+            <state relative-caret-position="173">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1094#1095#0" expanded="true" />
+                <element signature="e#1140#1141#0" expanded="true" />
+                <element signature="e#1227#1228#0" expanded="true" />
+                <element signature="e#1255#1256#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/freesoft/protobuf/CourseController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#262#263#0" expanded="true" />
@@ -134,10 +135,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/payloads.proto" />
         <option value="$PROJECT_DIR$/src/main/java/com/freesoft/protobuf/CourseRepository.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/freesoft/protobuf/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/freesoft/protobuf/CourseController.java" />
         <option value="$PROJECT_DIR$/src/test/java/ApplicationTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -244,9 +245,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ApplicationTest.whenUsingHttpClientThenSucceed">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="ApplicationTest.whenUsingHttpClientThenSucceed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="protobufferrestapi" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ApplicationTest" />
+      <option name="METHOD_NAME" value="whenUsingHttpClientThenSucceed" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="ApplicationTest.whenUsingRestTemplateThenSucceed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="protobufferrestapi" />
@@ -303,8 +321,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="JUnit.ApplicationTest.whenUsingRestTemplateThenSucceed" />
+      <item itemvalue="JUnit.ApplicationTest.whenUsingHttpClientThenSucceed" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApplicationTest.whenUsingHttpClientThenSucceed" />
         <item itemvalue="JUnit.ApplicationTest.whenUsingRestTemplateThenSucceed" />
       </list>
     </recent_temporary>
@@ -319,7 +342,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533059126236</updated>
-      <workItem from="1533059129637" duration="4150000" />
+      <workItem from="1533059129637" duration="4398000" />
     </task>
     <servers />
   </component>
@@ -333,9 +356,12 @@
     <history-entry file="ApplicationTest_whenUsingRestTemplateThenSucceed - 2018.07.31 at 21h 56m 41s.xml">
       <configuration name="ApplicationTest.whenUsingRestTemplateThenSucceed" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ApplicationTest_whenUsingRestTemplateThenSucceed - 2018.07.31 at 21h 59m 07s.xml">
+      <configuration name="ApplicationTest.whenUsingRestTemplateThenSucceed" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4150000" />
+    <option name="totallyTimeSpent" value="4398000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -389,13 +415,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/freesoft/protobuf/CourseRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -419,7 +438,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/freesoft/protobuf/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#360#361#0" expanded="true" />
@@ -432,7 +451,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/freesoft/protobuf/CourseController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#262#263#0" expanded="true" />
@@ -443,12 +462,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test/2.0.3.RELEASE/spring-boot-test-2.0.3.RELEASE.jar!/org/springframework/boot/test/context/SpringBootTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ApplicationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="79" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="79" />
+        <state relative-caret-position="173">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
           </folding>
         </state>
       </provider>
